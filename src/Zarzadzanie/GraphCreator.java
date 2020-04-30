@@ -50,7 +50,7 @@ public class GraphCreator extends JPanel {
         column1Renderer.setHorizontalAlignment(JLabel.CENTER);
         column1Renderer.setBackground(Color.green);
 
-        for(int i = 1; i < table.getModel().getColumnCount(); i++) {
+        for (int i = 1; i < table.getModel().getColumnCount(); i++) {
             table.getColumnModel().getColumn(i).setCellRenderer(centerRender);
         }
 
@@ -76,7 +76,7 @@ public class GraphCreator extends JPanel {
     private DefaultCategoryDataset createDataset() {
         DefaultCategoryDataset dataset = new DefaultCategoryDataset();
         TableModel model = table.getModel();
-        for(int i = 1; i < model.getColumnCount(); i++) {
+        for (int i = 1; i < model.getColumnCount(); i++) {
             dataset.addValue(Double.parseDouble(model.getValueAt(0, i).toString()), model.getValueAt(0, 0).toString(), model.getColumnName(i));
         }
         return dataset;
@@ -99,6 +99,7 @@ public class GraphCreator extends JPanel {
         placeholder.repaint();
 
         double[] regressionData = Regression.getOLSRegression(tablemodel.createDataset(), 0);
-        equation.setText("Równanie linii trendu: y = "+regressionData[1]+"x + "+regressionData[0]);
+        LinearRegression lr = new LinearRegression(tablemodel.getX(), tablemodel.getY());
+        equation.setText("Równanie linii trendu: y = " + String.format("%.4f", regressionData[1]) + "x + " + String.format("%.4f", regressionData[0]) + "        Współczynnik R^2 = "+String.format("%.4f", lr.R2()));
     }
 }
