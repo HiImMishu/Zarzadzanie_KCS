@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Projekt:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a51a43ac-c2b5-4402-81b6-3849da4441f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Zarzadzanie/LinearRegression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Projekt_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Zarzadzanie/GraphCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zarzadzanie/GraphCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Zarzadzanie/PriceTableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zarzadzanie/PriceTableModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Zarzadzanie/PoaView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zarzadzanie/PoaView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +41,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../jfreechart-1.0.19/lib/jfreechart-1.0.19.jar!/" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
@@ -73,7 +79,7 @@
       <workItem from="1587477449794" duration="4017000" />
       <workItem from="1588089348882" duration="20659000" />
       <workItem from="1588178632538" duration="18036000" />
-      <workItem from="1588275303108" duration="8484000" />
+      <workItem from="1588275303108" duration="10113000" />
     </task>
     <servers />
   </component>
@@ -85,6 +91,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1920.84.1920.1040@0.0.1536.824" timestamp="1588277499547" />
+    <state x="499" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588346429081">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824/-1920.84.1920.1040@0.0.1536.824" timestamp="1588346429081" />
     <state x="400" y="101" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1588269682484">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -93,22 +103,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="106" key="FileChooserDialogImpl/0.0.1536.824/-1920.84.1920.1040@0.0.1536.824" timestamp="1588269979447" />
-    <state width="1493" height="220" key="GridCell.Tab.0.bottom" timestamp="1588284186476">
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom" timestamp="1588346601280">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.84.1920.1040@0.0.1536.824" timestamp="1588284186476" />
-    <state width="1493" height="220" key="GridCell.Tab.0.center" timestamp="1588284186476">
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.84.1920.1040@0.0.1536.824" timestamp="1588346601280" />
+    <state width="1493" height="220" key="GridCell.Tab.0.center" timestamp="1588346601279">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.824/-1920.84.1920.1040@0.0.1536.824" timestamp="1588284186476" />
-    <state width="1493" height="220" key="GridCell.Tab.0.left" timestamp="1588284186475">
+    <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.824/-1920.84.1920.1040@0.0.1536.824" timestamp="1588346601279" />
+    <state width="1493" height="220" key="GridCell.Tab.0.left" timestamp="1588346601279">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.824/-1920.84.1920.1040@0.0.1536.824" timestamp="1588284186475" />
-    <state width="1493" height="220" key="GridCell.Tab.0.right" timestamp="1588284186476">
+    <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.824/-1920.84.1920.1040@0.0.1536.824" timestamp="1588346601279" />
+    <state width="1493" height="220" key="GridCell.Tab.0.right" timestamp="1588346601279">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.0.right/0.0.1536.824/-1920.84.1920.1040@0.0.1536.824" timestamp="1588284186476" />
+    <state width="1493" height="220" key="GridCell.Tab.0.right/0.0.1536.824/-1920.84.1920.1040@0.0.1536.824" timestamp="1588346601279" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1588178608557">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -129,10 +139,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="439" y="111" key="NewModule_or_Project.wizard/0.0.1536.824/-1920.84.1920.1040@0.0.1536.824" timestamp="1588269772553" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1588269980686">
+    <state x="249" y="0" key="SettingsEditor" timestamp="1588346438850">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824/-1920.84.1920.1040@0.0.1536.824" timestamp="1588269980686" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824/-1920.84.1920.1040@0.0.1536.824" timestamp="1588346438850" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1588275307620">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

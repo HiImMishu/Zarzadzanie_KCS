@@ -85,7 +85,7 @@ public class GraphCreator extends JPanel {
     public void createChart() {
         JFreeChart lineChart = ChartFactory.createXYLineChart(
                 table.getModel().getValueAt(0, 0).toString(),
-                "Kwartały w latach", "Ceny akcji",
+                "Kwartały w latach", "Ceny akcji (zł)",
                 tablemodel.createDataset(),
                 PlotOrientation.VERTICAL,
                 true, true, false);
